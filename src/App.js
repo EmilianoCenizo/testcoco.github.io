@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import './MyMapComponent'
+import MyMapComponent from './MyMapComponent'; // Asegúrate de que la ruta sea correcta
 
 function App() {
   return (
@@ -15,9 +17,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
         </a>
       </header>
+          <MyMapComponent />
     </div>
   );
 }
